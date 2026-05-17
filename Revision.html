@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Future Goals</caption>
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>S No.</th>
+                <th>Skills</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Video Editing</td>
+                <td>Yet to start</td>
+            </tr>
+    
+            <tr>
+                <td>2.</td>
+                <td>Coding</td>
+                <td>Just begin</td>
+            </tr>
+    
+            <tr>
+                <td>3.</td>
+                <td>Learning Guitar</td>
+                <td>Yet to start</td>
+            </tr>
+    
+            <tr>
+                <td>4.</td>
+                <td>Academic Comeback </td>
+                <td>Yet to start</td>
+            </tr>
+    
+            <tr>
+                <td>5.</td>
+                <td>Soft Skills</td>
+                <td>Just begin</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <hr>
+    <form action="/server">
+        <label for="Username">Enter Name:</label>
+        <input type="text" name="username" id="Username" placeholder="Username">
+    </form>
+    <hr>
+    <form action="https://www.quora.com/search">
+        <label for="search">Quora Redirector: </label>
+        <input type="text" id="search" size="25" placeholder="Idhar search kar Madarch*d" name="q">
+        <button type="submit">Search</button>
+    </form>
+    <hr>
+    <form action="/action">
+        <div>
+            Objection about your Gender: 
+            <label for="gender">Are you GAY </label>
+            <input type="checkbox" name="gay" id="gender" checked>
+            <label for="que">Do you know, why are you GAY?</label>
+            <input type="checkbox" name="que" id="que" checked>
+            <label for="conclusion">It means you agree that you are GAY!!</label>
+            <input type="checkbox" name="conc" id="conclusion" checked>
+        </div>
+        <br>
+        <div>
+            What type of people are you attracted to:
+            <br>
+            <input type="radio" name="g" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="g" id="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="g" id="lgbtq" checked>
+            <label for="lgbtq">LGBTQ++</label>
+            <br>
+        </div>
+        <br>
+        <div>
+            When did you realize that you are GAY: 
+            <select name="confession" id="con">
+                <option>Select your option</option>
+                <option value="birth">By Birth</option>
+                <option value="yesterday">Yesterday</option>
+                <option value="today" selected>Today</option>   <!-- 'selected' use karne se perticular option already selected rehta hai-->
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="percent">How much GAY are you(in %):</label>
+            <input type="range" min="0" max="100" step="50" value="100" name="percent" id="percent" >
+        </div>
+        <br>
+        <label for="feedback">Describe your journey to becoming GAY: &amp;</label>
+        <textarea name="feedback" id="feedback" placeholder="Describe here!!"></textarea>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <!-- PRACTICE QUESTION -->
+     <hr>
+     <h2>Registraqtion Form</h2>
+     <form action="/server">
+        <div>
+            <input type="text" name="name1" placeholder="First Name">
+            <input type="text" name="name2" placeholder="Last Name">
+        </div>
+        
+        <div>
+            <label for="gen">Please select gender:</label>
+            <select name="gen" id="gen">
+                <option value="m" selected>Male</option>
+                <option value="f">Female</option>
+                <option value="o">Others</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all terms of services? &amp;
+            <input type="checkbox" name="agree" id="agree" checked>
+            <label for="agree">Yes, I agree</label>
+        </div>
+        <button type="submit">Register</button>
+     </form>
+</body>
+</html>
